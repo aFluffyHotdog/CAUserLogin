@@ -32,4 +32,10 @@ public interface LoginUserDataAccessInterface {
      * @param name the name of the user that is logged in.
      */
     void setCurrentUser(String name);
+
+    /**
+     * Returns the logged-in user's name.
+     * @return the current user.
+     */
+    String getCurrentUser();
 }
